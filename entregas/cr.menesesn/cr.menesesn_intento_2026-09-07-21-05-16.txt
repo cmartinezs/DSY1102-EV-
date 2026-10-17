@@ -1,0 +1,15 @@
+Nombre: CRISTOPHER ALEXANDER MENESES NARVAEZ (cr.menesesn)
+Actividad: Evaluación Parcial 1 (30%)
+Fecha de envío: lunes 7 de septiembre de 2026 21H05' CLST
+Calificación actual: Necesita calificación
+
+Campo de entrega:
+<p>PS C:\Users\sj-alumno\IdeaProjects\Evaluacion1&gt; git pull origin main --allow-unrelated-histories --no-rebase</p><p>remote: Enumerating objects: 19, done.</p><p>remote: Counting objects: 100% (19/19), done.</p><p>remote: Compressing objects: 100% (16/16), done.</p><p>remote: Total 19 (delta 0), reused 19 (delta 0), pack-reused 0 (from 0)</p><p>Unpacking objects: 100% (19/19), 3.29 KiB | 27.00 KiB/s, done.</p><p>From https://github.com/cristopher35/DSY1105-009V_Cristopher_Meneses</p><p> * branch      main    -&gt; FETCH_HEAD</p><p> * [new branch]   main    -&gt; origin/main</p><p>Auto-merging .gitignore</p><p>CONFLICT (add/add): Merge conflict in .gitignore</p><p>Auto-merging .idea/kotlinc.xml</p><p>CONFLICT (add/add): Merge conflict in .idea/kotlinc.xml</p><p>Auto-merging .idea/misc.xml</p><p>CONFLICT (add/add): Merge conflict in .idea/misc.xml</p><p>Automatic merge failed; fix conflicts and then commit the result.</p><p>PS C:\Users\sj-alumno\IdeaProjects\Evaluacion1&gt; git push -u origin main</p><p>To https://github.com/cristopher35/DSY1105-009V_Cristopher_Meneses.git</p><p> ! [rejected]    main -&gt; main (non-fast-forward)</p><p>error: failed to push some refs to 'https://github.com/cristopher35/DSY1105-009V_Cristopher_Meneses.git'</p><p>hint: Updates were rejected because the tip of your current branch is behind                              </p><p>hint: its remote counterpart. If you want to integrate the remote changes,</p><p>hint: use 'git pull' before pushing again.</p><p>hint: See the 'Note about fast-forwards' in 'git push --help' for details.</p>
+
+Comentarios:
+No hay comentarios de estudiantes para esta actividad.
+
+Archivos:
+	Nombre de archivo original: Evaluacion1.zip
+	Nombre de archivo: Evaluación Parcial 1 (30%)_cr.menesesn_intento_2026-09-07-21-05-16_Evaluacion1.zip
+
