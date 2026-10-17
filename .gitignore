@@ -1,0 +1,13 @@
+.work/
+.venv/
+__pycache__/
+*.pyc
+.gradle/
+build/
+out/
+.idea/
+*.iml
+# Resultados privados y borradores
+resultados/
+notas/
+*.log
