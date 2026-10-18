@@ -71,7 +71,10 @@ def evaluate(student: Path) -> dict:
                 raise RuntimeError(f"Destino existente sin .git: {dest}")
             existing = run("git", "-C", str(dest), "remote", "get-url", "origin")
             if existing != url:
-                raise RuntimeError(f"Remote origin inesperado: {existing}")
+                expected_https = re.sub(r"^git@github\\.com:", "https://github.com/", url)
+                if existing != expected_https:
+                    raise RuntimeError(f"Remote origin inesperado: {existing}")
+                run("git", "-C", str(dest), "remote", "set-url", "origin", url)
             run("git", "-C", str(dest), "fetch", "--depth=1", "origin", sha)
         else:
             run("git", "clone", "--no-checkout", "--depth=1", "--single-branch", "--branch", branch, url, str(dest))
