@@ -7,6 +7,7 @@ import argparse
 import json
 import re
 import subprocess
+import os
 from datetime import datetime, timezone
 from pathlib import Path
 from urllib.parse import urlparse
@@ -17,8 +18,9 @@ WORK = ROOT / ".work"
 GITHUB = re.compile(r"https?://github\.com/[\w.-]+/[\w.-]+(?:\.git)?(?:/[^\s<>]*)?", re.I)
 
 def run(*args: str, cwd: Path | None = None) -> str:
-    p = subprocess.run(args, cwd=cwd, text=True, capture_output=True, timeout=120,
-                       stdin=subprocess.DEVNULL)
+    p = subprocess.run(args, cwd=cwd, text=True, capture_output=True, timeout=45,
+                       stdin=subprocess.DEVNULL,
+                       env={**os.environ, "GIT_TERMINAL_PROMPT": "0", "GCM_INTERACTIVE": "never"})
     if p.returncode:
         raise RuntimeError(f"{' '.join(args)}: {p.stderr.strip() or p.stdout.strip()}")
     return p.stdout.strip()
@@ -50,6 +52,8 @@ def evaluate(student: Path) -> dict:
     if not out["declared_urls"]:
         return out
     url = out["declared_urls"][0]
+    # Prioriza SSH para no solicitar credenciales interactivas de GitHub.
+    url = re.sub(r"^https://github\\.com/", "git@github.com:", url)
     dest = WORK / "fuentes" / ident / "repo"
     try:
         # --symref is needed to determine the remote default branch.
