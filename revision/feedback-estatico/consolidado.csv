@@ -1,0 +1,22 @@
+﻿id,fuente,sha,archivos_kt,indicadores_con_indicio,puntaje_validado,estado
+ab.puente,GitHub HEAD,8aaac1a2c55fc4c45b2e6e1aa3ba9d20f9563fe0,5,9,,REVISAR
+ca.pinillag,GitHub HEAD,28d788bcd15491c51dfc2915aae716fe1a9df5d0,6,10,,REVISAR
+cla.jaime,GitHub HEAD,2d1057df2b99acedea32da20477ec36ccb7d0ffe,8,7,,REVISAR
+cr.menesesn,GitHub HEAD,e286de3a3c6f1e40486637f5a6c8dab5fd0e7d98,5,10,,REVISAR
+cr.onate,NO_RECUPERADA,,0,0,,SIN_FUENTE
+en.chirinos,GitHub HEAD,2a272177bc9132723eecf4c98272073abf20c86d,3,11,,REVISAR
+enz.rojas,GitHub HEAD,d867b64d24d53278cc8fba8437de20cd9c8b7139,3,11,,REVISAR
+joa.sandovalg,ZIP,,7,9,,REVISAR
+ju.casassa,GitHub HEAD,0155497664cab3b19bff63cfb52e36c037aeac90,8,6,,REVISAR
+luc.vargasp,GitHub HEAD,950dffd605414b25e88a7c0106f4dc3ef06e2049,4,9,,REVISAR
+lui.maraboli,GitHub HEAD,8869301982ea829715b896bae0ecf0da6e5661bb,13,10,,REVISAR
+mat.chavezc,ZIP,,1,11,,REVISAR
+mat.gomezl,NO_RECUPERADA,,0,0,,SIN_FUENTE
+mi.gonzalezva,ZIP,,9,11,,REVISAR
+mr.soto,GitHub HEAD,ec6f02f113b9ff8ea4867098a34dae8a418efe54,6,10,,REVISAR
+nicol.verar,ZIP,,6,11,,REVISAR
+rai.gomez,GitHub HEAD,785b10a43cb81d439c77ebe773de4f8e6e2d371b,4,10,,REVISAR
+rob.salvo,ZIP,,5,5,,REVISAR
+se.valderramar,GitHub HEAD,50a59035fe1a43876212a25e1ca33b2e9f71279b,0,0,,SIN_FUENTE
+vi.rodriguezy,ZIP,,0,0,,SIN_FUENTE
+yero.silva,NO_RECUPERADA,,0,0,,SIN_FUENTE
